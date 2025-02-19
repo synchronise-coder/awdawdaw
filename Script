@@ -243,6 +243,7 @@ function library:Watermark(text)
     edge.Position = UDim2.new(0.5, 0, -0.03, 0)
     edge.Size = UDim2.new(0, 0, 0, 26)
     edge.BackgroundTransparency = 1
+    edge.Active = true
     edge.Draggable = true
 
     edgeCorner.CornerRadius = UDim.new(0, 2)
