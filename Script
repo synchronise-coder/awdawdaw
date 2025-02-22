@@ -73,7 +73,7 @@ end
 
 local library = {
     version = "2",
-    title = title or "sync " .. tostring(math.random(1,366)),
+    title = title or "ui " .. tostring(math.random(1,366)),
     fps = 0,
     rank = "private"
 }
@@ -791,7 +791,7 @@ function library:Introduction()
     text.Position = UDim2.new(0.912751675, 0, 0, 0)
     text.Size = UDim2.new(0, 26, 0, 21)
     text.Font = Enum.Font.Code
-    text.Text = ".gg/wWeBVNg9R6"
+    text.Text = "hash"
     text.TextColor3 = Color3.fromRGB(124, 124, 124)
     text.TextSize = 10.000
     text.TextTransparency = 1
